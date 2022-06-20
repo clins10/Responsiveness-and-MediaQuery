@@ -15,6 +15,7 @@ body {
 nav {
     width: 100%;
 }
+
 nav ul {
     width: 100%;
     display: flex;
@@ -36,8 +37,7 @@ h1, h, h3, h6 p {
     font-weight: 600;
 }
 
-
-       /* All Buttons*/
+/* All Buttons*/
 
 button {
     white-space: nowrap;
@@ -55,9 +55,11 @@ button {
     background-color: white;
     box-shadow: 0px 0px 10px rgba(126, 125, 125, 0.5);
 } 
+
 #navbtn a {
     color:black;
 }
+
 #navbtn:hover {
     background-color: aqua;
     color: white;
@@ -84,58 +86,57 @@ header {
 }
 
 .first-p {
-        width: 90%;
-        margin: 0 auto;
-        font-size: 1.5rem;
-        padding: 1rem 0rem;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
 }
 
 .btn2{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-        margin-bottom: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 2.2rem;
 }
 
 .btn2 button {
-        color: white;
-        padding: 0.6rem 3rem;
-        background-color: hsl(322, 100%, 66%);
-        border: hsl(322, 100%, 66%) solid 1px;
-        box-shadow: 0px 0px 10px rgba(126, 125, 125, 0.5);
-        
+    color: white;
+    padding: 0.6rem 3rem;
+    background-color: hsl(322, 100%, 66%);
+    border: hsl(322, 100%, 66%) solid 1px;
+    box-shadow: 0px 0px 10px rgba(126, 125, 125, 0.5);
+    
 }
 
- /* header-hero for mobile*/
+/* header-hero for mobile*/
 .illustration-mobile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 2em;
 }
 
 .illustration-mobile .img2 {
-        display: none;
+    display: none;
 }
 
-     /* Ending of heading*/
+/* Ending of heading*/
 h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        // color: #fff;
-        margin-bottom: 1em;
-        text-align: center;
-        text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        margin-bottom: 1em;
-        text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 /* MAIN SECTION*/
@@ -149,12 +150,13 @@ main {
     padding: 3.5rem 0rem;
 }
 
-    /* MAIN SECTION-1*/
+/* MAIN SECTION-1*/
     
 main{
     position: relative;
     background-color: white;
 }
+
 main section {
     background-color: white;
     width: 90%;
@@ -168,6 +170,7 @@ main section {
     gap: 4rem;
     box-shadow: 1px 0px 10px rgba(117, 112, 112, 0.5);
 }
+
 main section img {
     padding: 2rem 0rem;
 }
@@ -181,19 +184,22 @@ main section p {
     font-size: 1rem;
     text-align: center;
 }
+
 .your-users {
     margin-bottom: -20px;
 }
+
 .your-users p {
     font-size: 1rem;
     padding: 0 .44rem;
 }
 
-/*PRE FOOTER CARD*/
+/*PRE-FOOTER CARD*/
 .bfore-footer{
     position: relative;
     top: 100px;
 }
+
 .prefooter-div {
     width: 95%;
     white-space: nowrap;
@@ -210,6 +216,7 @@ main section p {
     margin-bottom: .9rem;
     box-shadow: 1px 0px 10px rgba(117, 112, 112, 0.5);
 }
+
 .prefooter-div button {
     color: white;
     padding: 0.8rem 3rem;
@@ -235,6 +242,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .location-logo {
     display: flex;
     float: left;
@@ -270,14 +278,14 @@ footer p {
 .our-details {
     padding: .8rem 1rem;
 }
+
 .our-details ul {
     list-style: none;
 }
+
 .our-details ul li {
     padding: 0.5rem 0rem;
 }
-
-
 
 footer a {
     color: #fff;
@@ -309,7 +317,7 @@ footer a {
     margin-bottom: 2.5rem;
 }
 
-    /* MEDIA QUERY*/
+/* MEDIA QUERY*/
 @media screen and (min-width: 992px) {
     nav ul {
         padding: 1.4rem 3rem;
@@ -384,14 +392,12 @@ footer a {
     main section h3{
         text-align: left;
         font-size: 2.3rem;
-        margin-left: 2.5rem;
-        
+        margin-left: 2.5rem;  
     }
     main section p {
         text-align: left;
         font-size: 1.5rem;
         margin-left: 2.5rem;
-    
     }
 
     main section {
@@ -451,84 +457,72 @@ footer a {
         box-shadow: 0px 0px 10px rgba(126, 125, 125, 0.5);
     }
 
-     /*FOOTER*/
+    /*FOOTER*/
     footer {
         display: flex;
         flex-direction: column;
     }
 
     .footer-div {
+        display: flex;
+        flex-direction: column;
     }
 
     .footer-row {
-        display: grid;
-        grid-template-areas: 
-        'logo address email phone'
-        'logo address email phone'
-        'logo address email phone';
-        // justify-content: space-between;
-        // align-items: center;
-        // padding: 0.8rem 1.5rem;
+        display: flex;
+        flex-direction: row;
     }
+
    footer p {
-    // font-size: 1rem;
-    width: 25%;
-    // font-weight: 400;
-    // text-align:left;
-    // padding: 0rem .1rem;
-    // margin-top: -4px;
-    // margin-left: 2rem;
-  }
+     font-size: 1rem;
+   }
+
+
     .hud-logo {
         display: flex;
         padding: 1.5rem 4rem;
         margin-top: 4rem;
     }
-   
 
     footer .address {
-        display: grid;
-        margin: 0 auto;
-        flex-direction: row;
-        width: 100%;
-        flex-direction: column;
-        align-items: left;
-
-        // margin: 0;
-        // padding: 0;
-        align-items: left;
-        // padding: 0 4rem;
+        flex-basis: 100%;
+        padding: 0 4rem; 
     }
+
+    .location-logo {
+        display: flex;
+        float: left;
+        padding: 1.8rem 6rem;
+        margin-left: -4.5rem;
+        width: 95%;
+   }
+
 
     .our-details {
+        flex-basis: 100%;
         display: flex;
-        // width: 100%;
-        // flex-direction: row;
+        margin-left: -7rem;
     }
+
     .our-details-1 {
-        display: flex;
-        // width: 40%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.8rem 1.5rem;
+        flex-basis: 25%; 
     }
+
     .our-details-2{
-        display: flex;
-        // width: 40%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.8rem 1.5rem;
+        flex-basis: 25%;  
     }
 
     .social-medias {
+        flex-basis: 100%;
+        margin-left: -34rem;
+        margin-top: -1rem;
+    }
+
+    .copyright {
         display: flex;
-        // width: 40%;
-        flex-direction: row;
-        // justify-content: space-between;
-        // align-items: center;
-        // padding: 0.8rem 1rem;
+        justify-content: right;
+        padding: 1rem 3rem;
+        margin-bottom: 1rem;
     }
 
 
